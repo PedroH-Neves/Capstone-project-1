@@ -79,6 +79,47 @@
   padding-bottom: 40px;
 }
 
+/* SECTION ONE */
+
+.section-one {
+  background-image: url(./assets/background/section-one-pattern.jpg);
+}
+
+.section-one-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.section-one-line {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin-left: 46%;
+}
+
+.program-card {
+  display: flex;
+  gap: 20px;
+  padding-left: 5%;
+  background-color: rgba(61, 64, 71, 0.5);
+  margin: 3%;
+}
+
+.program-card-name {
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+.program-btn {
+  display: flex;
+  background-color: #ec5242;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 8% 18%;
+}
+
 /* GLOBAL */
 
 .color-one {
@@ -97,6 +138,10 @@
   font-family: 'lato', sans-serif;
 }
 
+.no-underscore {
+  text-decoration: none;
+}
+
 .fa-x {
   color: #d3d3d3;
   padding-top: 15px;
@@ -107,4 +152,9 @@
   font-size: 32px;
   padding-top: 15px;
   padding-left: 6%;
+}
+
+.card-icons {
+  font-size: 32px;
+  padding-top: 10%;
 }
