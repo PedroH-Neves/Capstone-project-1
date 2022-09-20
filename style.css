@@ -4,10 +4,19 @@
   box-sizing: border-box;
 }
 
+.body {
+  min-width: 375px;
+}
+
 /* HEADER */
 
+.header {
+  background-image: url(./assets/background/mobile-background.png);
+  background-size: cover;
+}
+
 .mobile-menu {
-  display: block;
+  display: none;
   background-color: #272a31;
   position: fixed;
   top: 0;
@@ -29,6 +38,45 @@
 .menu-mobile-list-itens {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.header-section {
+  padding-top: 30px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.event-call {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.event-name {
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 1;
+  color: transparent;
+  background-image: url(./assets/background/letter-pattern.png);
+  background-clip: text;
+  -webkit-background-clip: text;
+  padding-bottom: 20px;
+}
+
+.event-desc {
+  border: 3px solid #fff;
+  padding: 10px;
+  background-color: #f7f5f5;
+}
+
+.event-date {
+  padding-top: 15px;
+}
+
+.event-place {
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 40px;
 }
 
 /* GLOBAL */
@@ -53,4 +101,10 @@
   color: #d3d3d3;
   padding-top: 15px;
   padding-left: 90%;
+}
+
+.fa-bars {
+  font-size: 32px;
+  padding-top: 15px;
+  padding-left: 6%;
 }
