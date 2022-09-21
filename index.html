@@ -13,9 +13,9 @@
 
 <body class="body">
   <header class="header">
-    <i class="fa-solid fa-bars"></i>
+    <i class="fa-solid fa-bars menu-bars"></i>
     <div class="mobile-menu">
-      <i class="fa-solid fa-x"></i>
+      <i class="fa-solid fa-x menu-x"></i>
       <ul class="menu-mobile-list unic-font">
         <li class="menu-mobile-list-itens color-three">About</li>
         <hr class="menu-mobile-line">
@@ -30,24 +30,24 @@
     </div>
     <div class="desktop-menu"></div>
     <section class="header-section">
-      <p class="unic-font color-two event-call">"Hello game lovers!"</p>
-      <h1 class="unic-font event-name">BRASIL GAME SHOW 2022</h1>
-      <p class="unic-font event-desc">An event for those who are in love with everything about the geek world. Here you
+      <p class="color-two event-call">"Hello game lovers!"</p>
+      <h1 class="event-name">BRASIL GAME SHOW 2022</h1>
+      <p class="event-desc">An event for those who are in love with everything about the geek world. Here you
         can find cosplayers, influencers, competitions and more.</p>
-      <h2 class="unic-font event-date">2022.10.06(Thu) ~ 12(Mon)</h2>
-      <h3 class="unic-font event-place">@EXPO CENTER NORTE, SP</h3>
+      <h2 class="event-date">2022.10.06(Thu) ~ 12(Mon)</h2>
+      <h3 class="event-place">@EXPO CENTER NORTE, SP</h3>
     </section>
   </header>
   <main class="main">
-    <section class="section-one">
-      <h1 class="color-three section-one-title">Main Progam</h1>
-      <hr class="section-one-line">
+    <section class="program-section">
+      <h1 class="color-three program-section-title">Main Progam</h1>
+      <hr class="section-line">
        <div class="program-card">
         <i class="fa-solid fa-message card-icons"></i>
-        <h3 class="program-card-name color-two unic-font">
+        <h3 class="program-card-name color-two">
           BGS Talks
         </h3>
-        <p class="program-card-desc unic-font color-three">
+        <p class="program-card-desc color-three">
           The visitors will have the oportunity to watch amazing presentation by international guests and influencers.
         </p>
        </div>
@@ -89,7 +89,18 @@
        </div>
        <a href="https://www.brasilgameshow.com.br" rel="noopener" target="_blank" class="program-btn color-three no-underscore">Join Brasil Game Show 2022</a>
     </section>
+    <div class="guests-title">
+      <p class="color-one">Featured Guests</p>
+    </div>
+    <hr class="section-line">
+    <section id="guests-section">
+      
+      <button class="more-btn" onclick="showGuests()">MORE<i class="fa-solid fa-chevron-down color-two"></i></button>
+    </section>
+
   </main>
 </body>
+
+<script src="index.js"></script>
 
 </html>
