@@ -173,6 +173,79 @@
   padding: 12px 0;
 }
 
+/* ABOUT PAGE */
+
+.event-info {
+  background-color: #fff;
+  padding: 5%;
+  border: 1px solid #d3d3d3;
+}
+
+.event-text {
+  font-weight: 400;
+  font-size: 14px;
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.event-email {
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+/* MAIN ABOUT */
+
+.about-line {
+  border: 1px solid #ec5242;
+  width: 10%;
+}
+
+.about-logo {
+  border-color: #d3d3d3;
+}
+
+.bgs-div-2021 {
+  background-image: url(./assets/background/bgs-2021.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.bgs-div-2020 {
+  background-image: url(./assets/background/bgs-2020.jpg);
+  background-size: cover;
+  height: 200px;
+}
+
+.div-spans {
+  background-color: rgba(236, 82, 66, 0.7);
+  height: 200px;
+}
+
+/* FOOTER */
+
+.footer-partners {
+  background-color: #424146;
+}
+
+.partner-logo {
+  z-index: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.partner-icon {
+  font-size: 52px;
+  transition: 1s;
+}
+
+.footer-line {
+  width: 15%;
+}
+
 /* GLOBAL */
 
 .color-one {
@@ -207,6 +280,22 @@
   margin-left: 7px;
   margin-top: 3px;
   font-size: 16px;
+}
+
+.fa-twitch:hover {
+  color: #9147ff;
+}
+
+.fa-youtube:hover {
+  color: #ff0000;
+}
+
+.fa-playstation:hover {
+  color: #0070d1;
+}
+
+.partner-icon:hover {
+  cursor: pointer;
 }
 
 .card-icons {
