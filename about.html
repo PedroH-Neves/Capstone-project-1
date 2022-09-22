@@ -18,7 +18,7 @@
 
 <body>
   <header class="header">
-    <i class="fa-solid fa-bars menu-bars"></i>
+    <div id="hide-div"><i class="fa-solid fa-bars menu-bars"></i></div>
     <div class="mobile-menu">
       <i class="fa-solid fa-x menu-x"></i>
       <ul class="menu-mobile-list unic-font">
@@ -48,9 +48,9 @@
         <li class="menu-desktop-list-itens color-one">News</li>
       </ul>
     </div>
-    <section class="header-section">
-      <p class="color-two event-call">"Hello game lovers!"</p>
-      <h1 class="event-name">BRASIL GAME SHOW 2022</h1>
+    <section class="header-about-section d-flex flex-column align-items-center px-3 py-5">
+      <p class="color-two event-about-call ">"Hello game lovers!"</p>
+      <h1 class="event-about-name">BRASIL GAME SHOW 2022</h1>
       <p class="event-info">The BGS is an event for those who like everyhing about the geek world. Every year improving
         the event to be better.</p>
       <h2 class="event-text">For further informations about the event, enter the link above</h2>
@@ -66,7 +66,7 @@
       <img src="./assets/logo/image.jpg" alt="BGS logo" class="border border-2">
     </section>
     <hr class="border border-dark border-2 opacity-25">
-    <section class="d-flex flex-column align-items-center pb-5">
+    <section class="d-flex flex-column align-items-center py-5">
       <h3>See past Brasil Game Shows</h3>
       <hr class="about-line">
       <p>Take a look in the past BGS events</p>
@@ -85,20 +85,22 @@
     </section>
   </main>
   <footer>
-    <div class="d-flex flex-column align-items-center py-5 footer-partners">
-      <p class="color-three fs-2 fw-bold mb-0">Partners</p>
-      <hr class="footer-line border border-danger border-1 opacity-50 mb-5 mt-1">
-      <div class="d-flex gap-5 align-items-center">
-          <a href="https://www.twitch.tv" rel="noopener" target="_blank" class="color-one"><i class="fa-brands fa-twitch partner-icon"></i></a>
-          <a href="https://www.youtube.com" rel="noopener" target="_blank" class="color-one"><i class="fa-brands fa-youtube partner-icon"></i></a>
-          <a href="https://www.playstation.com" rel="noopener" target="_blank" class="color-one"><i class="fa-brands fa-playstation partner-icon"></i></a>
+    <div id="hide-div">
+      <div class="footer-partners d-flex flex-column align-items-center py-5">
+        <p class="color-three fs-2 fw-bold mb-0">Partners</p>
+        <hr class="footer-line border border-danger border-1 opacity-50 mb-5 mt-1">
+        <div class="d-flex gap-5 align-items-center">
+            <a href="https://www.twitch.tv" rel="noopener" target="_blank" class="color-one"><i class="fa-brands fa-twitch partner-icon"></i></a>
+            <a href="https://www.youtube.com" rel="noopener" target="_blank" class="color-one"><i class="fa-brands fa-youtube partner-icon"></i></a>
+            <a href="https://www.playstation.com" rel="noopener" target="_blank" class="color-one"><i class="fa-brands fa-playstation partner-icon"></i></a>
+        </div>
       </div>
     </div>
-    <div class="footer-rights d-flex p-4">
+    <div class="footer-rights d-flex p-4 justify-content-center">
     <div class="footer-img">
       <img src="./assets/logo/image.jpg" alt="" class="w-75">
     </div>
-    <div class="footer-rights-text">
+    <div class="footer-rights-text d-flex align-items-center">
       2022 Brasil Game Show
       All Rights Reserved
     </div>

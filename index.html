@@ -10,12 +10,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/bf66e12569.js" crossorigin="anonymous"></script>
-  <title>Capstone 1</title>
+  <title>Program</title>
 </head>
 
 <body class="body">
   <header class="header">
-    <i class="fa-solid fa-bars menu-bars"></i>
+    <div id="hide-div"><i class="fa-solid fa-bars menu-bars"></i></div>
     <div class="mobile-menu">
       <i class="fa-solid fa-x menu-x"></i>
       <ul class="menu-mobile-list unic-font">
@@ -113,10 +113,30 @@
     <hr class="section-line">
     <section id="guests-section">
       
-      <button class="more-btn" onclick="showGuests()">MORE<i class="fa-solid fa-chevron-down color-two"></i></button>
+      <button id="more-btn" class="more-btn" onclick="showGuests()">MORE<i class="fa-solid fa-chevron-down color-two"></i></button>
     </section>
 
   </main>
+  <footer class="footer">
+    <div class="d-flex flex-column align-items-center py-5 footer-partners justify-content-center">
+      <p class="color-three fs-2 fw-bold mb-0">Partners</p>
+      <hr class="footer-line border border-danger border-1 opacity-50 mb-5 mt-1">
+      <div class="d-flex gap-5 align-items-center">
+          <a href="https://www.twitch.tv" rel="noopener" target="_blank" class="color-one"><i class="fa-brands fa-twitch partner-icon"></i></a>
+          <a href="https://www.youtube.com" rel="noopener" target="_blank" class="color-one"><i class="fa-brands fa-youtube partner-icon"></i></a>
+          <a href="https://www.playstation.com" rel="noopener" target="_blank" class="color-one"><i class="fa-brands fa-playstation partner-icon"></i></a>
+      </div>
+    </div>
+    <div class="footer-rights d-flex p-4 justify-content-center">
+    <div class="footer-img">
+      <img src="./assets/logo/image.jpg" alt="" class="w-75">
+    </div>
+    <div class="footer-rights-text d-flex align-items-center">
+      2022 Brasil Game Show
+      All Rights Reserved
+    </div>
+    </div>
+  </footer>
 </body>
 
 <script src="index.js"></script>

@@ -62,6 +62,11 @@
   font-weight: 400;
 }
 
+.event-about-call {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .event-name {
   font-size: 58px;
   font-weight: 900;
@@ -71,6 +76,13 @@
   background-clip: text;
   -webkit-background-clip: text;
   padding-bottom: 20px;
+}
+
+.event-about-name {
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 1;
+  color: #ec5242;
 }
 
 .event-desc {
@@ -238,6 +250,7 @@
 /* FOOTER */
 
 .footer-partners {
+  display: none;
   background-color: #424146;
 }
 
@@ -256,9 +269,13 @@
   width: 15%;
 }
 
+.footer {
+  display: none;
+}
+
 @media (min-width: 768px) {
 
-  .menu-bars {
+  #hide-div {
     display: none;
   }
 
@@ -334,6 +351,9 @@
   .program-btn {
     display: flex;
     justify-content: center;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 0;
   }
 
   /* GUEST SECTION */
@@ -345,6 +365,11 @@
   #guests-section {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .guests-cards {
+    width: 45%;
   }
 
   .more-btn {
@@ -353,8 +378,8 @@
 
   /* FOOTER */
 
-  .footer-partners {
-    display: none;
+  .footer {
+    display: block;
   }
 }
 

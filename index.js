@@ -89,8 +89,26 @@ guests.forEach((item) => {
   }
 });
 
+const moreGuests = document.querySelector('#more-btn');
+
+const arrow = document.querySelector('.fa-chevron-dwon');
+
 const showGuests = () => {
   for(let i = 3; i < 7; i++) {
     document.getElementById(`guest${i}`).classList.remove('more-guests');
+    if(i <= 6 && i > 2 && moreGuests.innerHTML == 'LESS<i class="fa-solid fa-chevron-down color-two" style="transform: rotate(-180deg)"></i>') {
+      document.getElementById(`guest${i}`).classList.add('more-guests');
+    }
   }
 }
+
+const changeMore = () => {
+  if (moreGuests.innerHTML === 'MORE<i class="fa-solid fa-chevron-down color-two"></i>') {
+    moreGuests.innerHTML = 'LESS<i class="fa-solid fa-chevron-down color-two" style="transform: rotate(-180deg)"></i>';
+    arrow.style.transform = 'rotate(90deg)';
+  } else {
+    moreGuests.innerHTML = 'MORE<i class="fa-solid fa-chevron-down color-two"></i>';
+  }
+}
+
+moreGuests.addEventListener('click', changeMore);
