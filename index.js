@@ -84,8 +84,7 @@ guests.forEach((item) => {
     </div>
 </div>   
   `;
-  if(item.id > 2) {
-    console.log(item.id)
+  if(item.id > 2  && screen.width < 768) {
     document.getElementById(`guest${item.id}`).classList.add('more-guests');
   }
 });

@@ -16,6 +16,12 @@
   background-size: cover;
 }
 
+.fa-bars {
+  font-size: 32px;
+  padding-top: 15px;
+  padding-left: 6%;
+}
+
 .mobile-menu {
   display: none;
   background-color: #272a31;
@@ -24,6 +30,10 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.desktop-menu {
+  display: none;
 }
 
 .menu-mobile-line {
@@ -246,6 +256,108 @@
   width: 15%;
 }
 
+@media (min-width: 768px) {
+
+  .menu-bars {
+    display: none;
+  }
+
+  .header {
+    background-image: url(./assets/background/desktop-background.png);
+  }
+
+  .header-section {
+    padding-top: 8%;
+    margin-left: 10%;
+    padding-bottom: 4%;
+  }
+
+  .desktop-menu {
+    display: block;
+  }
+
+  .desktop-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 3%;
+    background-color: #3e3e3e;
+    padding-right: 10%;
+    margin-bottom: 0;
+  }
+
+  .menu-desktop-list {
+    display: flex;
+    gap: 6%;
+    justify-content: center;
+    background-color: #fff;
+    list-style: none;
+  }
+
+  .menu-desktop-list-itens {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .bgs-logo {
+    padding-right: 20%;
+  }
+
+  .event-call {
+    font-size: 42px;
+  }
+
+  .event-name {
+    font-size: 80px;
+    width: 50%;
+  }
+
+  .event-desc {
+    width: 40%;
+  }
+
+  /* MAIN */
+
+  .desktop-cards {
+    display: flex;
+  }
+
+  .program-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 1%;
+  }
+
+  .program-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* GUEST SECTION */
+
+  .guests-title {
+    font-size: 32px;
+  }
+
+  #guests-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .more-btn {
+    display: none;
+  }
+
+  /* FOOTER */
+
+  .footer-partners {
+    display: none;
+  }
+}
+
 /* GLOBAL */
 
 .color-one {
@@ -268,12 +380,6 @@
   color: #d3d3d3;
   padding-top: 15px;
   margin-left: 90%;
-}
-
-.fa-bars {
-  font-size: 32px;
-  padding-top: 15px;
-  padding-left: 6%;
 }
 
 .fa-chevron-down {
@@ -302,3 +408,4 @@
   font-size: 32px;
   padding-top: 10%;
 }
+
