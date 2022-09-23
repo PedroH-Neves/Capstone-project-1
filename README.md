@@ -18,7 +18,7 @@ Capstone 1
 
 ## Live Demo (if available)
 
-Here is a live demo.[Click Here](https://pedroh-neves.github.io/Capstone-project-1/);
+Here is a [live demo](https://pedroh-neves.github.io/Capstone-project-1/);
 
 ## Getting Started
 
