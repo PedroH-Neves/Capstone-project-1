@@ -96,7 +96,7 @@ const arrow = document.querySelector('.fa-chevron-dwon');
 
 // eslint-disable-next-line no-unused-vars
 const showGuests = () => {
-  for (let i = 3; i < 7; i+= 1) {
+  for (let i = 3; i < 7; i += 1) {
     document.getElementById(`guest${i}`).classList.remove('more-guests');
     if (i <= 6 && i > 2 && moreGuests.innerHTML === 'LESS<i class="fa-solid fa-chevron-down color-two" style="transform: rotate(-180deg)"></i>') {
       document.getElementById(`guest${i}`).classList.add('more-guests');
