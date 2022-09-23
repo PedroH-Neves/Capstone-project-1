@@ -392,6 +392,14 @@
     display: block;
   }
 
+  .footer-rights {
+    background-color: #3e3e3e;
+  }
+
+  .footer-rights-text {
+    color: #d3d3d3;
+  }
+
   .bgs-past-imgs {
     display: flex;
     flex-direction: row;
