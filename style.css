@@ -273,6 +273,14 @@
   display: none;
 }
 
+.bgs-past-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
 @media (min-width: 768px) {
   #hide-div {
     display: none;
@@ -296,7 +304,8 @@
     display: flex;
     list-style: none;
     justify-content: flex-end;
-    gap: 3%;
+    align-items: center;
+    gap: 2%;
     background-color: #3e3e3e;
     padding-right: 10%;
     margin-bottom: 0;
@@ -304,8 +313,7 @@
 
   .menu-desktop-list {
     display: flex;
-    gap: 6%;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #fff;
     list-style: none;
   }
@@ -337,14 +345,16 @@
 
   .desktop-cards {
     display: flex;
+    margin: 5% 15%;
   }
 
   .program-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
     padding: 10px;
-    margin: 1%;
+    margin: 3px;
   }
 
   .program-btn {
@@ -365,10 +375,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 15%;
   }
 
   .guests-cards {
-    width: 45%;
+    width: 39%;
   }
 
   .more-btn {
@@ -379,6 +390,14 @@
 
   .footer {
     display: block;
+  }
+
+  .bgs-past-imgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
   }
 }
 

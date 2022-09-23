@@ -51,7 +51,7 @@ const guests = [
     image: './assets/guests/guest5.png',
     name: 'Daiki',
     info: 'Proplayer for Team Liquid.',
-    description: 'Daiki became famous after becoming a Valorant proplayer for Team Liquid.',
+    description: 'Daiki is a Valorant Team Liquid proplayer.',
     id: '5',
   },
 
@@ -59,7 +59,7 @@ const guests = [
     image: './assets/guests/guest6.png',
     name: 'Yayah',
     info: 'Streamer on Twitch',
-    description: 'Yayah is a famous streamer on Twitch.',
+    description: 'Yayah is a famous streamer on Twitch and she is a judo professional.',
     id: '6',
   },
 ];
