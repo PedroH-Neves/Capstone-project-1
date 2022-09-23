@@ -2,7 +2,7 @@
 
 # Project Name
 
-My Portfolio
+Capstone 1
 
 ## Built With
 
@@ -17,6 +17,8 @@ My Portfolio
 -javascript
 
 ## Live Demo (if available)
+
+Here is a [live demo](https://pedroh-neves.github.io/Capstone-project-1/);
 
 ## Getting Started
 
